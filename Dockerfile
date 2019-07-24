@@ -12,7 +12,7 @@ RUN apt-get update && \
     awscli \
     jq
 
-RUN yarn global add serve wait-on
+RUN yarn global add serve wait-on typescript
 
 # versions of local tools
 RUN node -v
